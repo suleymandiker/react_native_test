@@ -40,9 +40,9 @@ function Feed() {
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
             <AppStatusBar backgroundColor="dimgray" barStyle="light-content" />
-            <Text>Feed!</Text>
+            <Text>Feed!!!!</Text>
             <SafeAreaView style={styles.container}>
-                <Text style={styles.title}>My Decksssss</Text>
+                <Text style={styles.title}>My Decks</Text>
                 <FlatList
                     data={DATA}
                     renderItem={renderItem}
